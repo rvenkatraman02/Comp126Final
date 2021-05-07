@@ -24,6 +24,7 @@ h3 {
     text-decoration: underline;
 }
 
+/* Header Formatting */
 .menu {
     font-family: 'Proza Libre', sans-serif;
     font-size: 140%;
@@ -71,7 +72,7 @@ h3 {
     padding: 50px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 768px) {
 
     .fa-facebook-square,
     .fa-instagram,

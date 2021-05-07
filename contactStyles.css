@@ -141,7 +141,7 @@ input {
     color: #a19e9f;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 768px) {
 
     .fa-facebook-square,
     .fa-instagram,
