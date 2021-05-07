@@ -27,6 +27,7 @@ h1 {
 .menu:hover {
     color: #f4f5f6 !important;
 }
+
 .color1 {
     background-color: #222c3c;
 }
@@ -43,6 +44,7 @@ h1 {
 .color1 ul li:hover a {
     color: #222c3c;
 }
+
 .logo {
     width: 6%;
     height: 6%;
@@ -64,6 +66,7 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
 .color2 {
     padding: 10px;
 }
@@ -72,23 +75,28 @@ h1 {
 .tutor-container {
     width: 50%;
 }
+
 .tutor-container:hover {
     transform: scale(1.05);
     box-shadow: 1px 1px 2px 1px black;
 }
+
 .tutor1 {
     width: 90%;
     height: 90%;
     padding: 5px;
 }
+
 .tutor2 {
     width: 90%;
     height: 90%;
     padding: 5px;
 }
+
 figcaption {
     text-align: center;
 }
+
 img.scaled {
     height: 8% !important;
     width: auto !important;
@@ -97,45 +105,54 @@ img.scaled {
 .color3 {
     padding-top: 20px;
 }
+
 .main-img-container {
     position: relative;
     text-align: center;
 }
+
 .main-img-text {
     position: absolute;
     top: 2%;
     left: 40%;
     transform: translate(-33%, 0%);
 }
+
 .main-img-text h5 {
     font-weight: bold;
     font-size: 115%;
     font-family: 'Arimo', sans-serif;
     color: #222c3c;
 }
+
 .color4 {
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .carousel-inner {
     box-shadow: 1px 1px 2px 1px black;
 }
+
 .card {
     background: #989da6;
 }
+
 .card-body {
     background-color: #a19e9f;
     transition: all 600ms linear;
     font-family: 'Roboto', sans-serif;
 }
+
 .color5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .schedule-container {
     display: flex;
     flex-direction: column;
@@ -144,6 +161,7 @@ img.scaled {
     width: 75%;
     background: #a19e9f;
 }
+
 table {
     border: 2px solid black;
 }
@@ -154,6 +172,7 @@ table {
 .fa-microscope {
     color: #222c3c;
 }
+
 .pricing-container {
     display: block;
     margin-left: auto;
@@ -161,11 +180,13 @@ table {
     width: 75%;
     background: #a19e9f;
 }
+
 th,
 td {
     border: 1px solid black;
 }
-th h5,
+
+.h5-th,
 td h5 {
     padding: 1px;
     text-align: center;
@@ -235,9 +256,5 @@ td h5 {
     h4 {
         font-size: 1.25rem;
         text-align: center;
-    }
-
-    h3 {
-        text-decoration: underline;
     }
 }
