@@ -1,0 +1,184 @@
+.body {
+    height: 100vh;
+    background-color: #989da6;
+}
+
+.container-fluid {
+    background-color: #989da6;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.menu {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 140%;
+}
+
+.menu:hover {
+    color: white !important;
+}
+
+.logo {
+    width: 6%;
+    height: 6;
+    padding: 0.1%;
+}
+
+.fa-youtube,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin,
+.fa-facebook-square {
+    color: #f4f5f6;
+}
+
+.color1 {
+    background-color: #222c3c;
+}
+
+.color1 a {
+    color: #989da6;
+}
+
+.color1 ul li:hover {
+    background-color: #a19e9f;
+    border-radius: 5px;
+}
+
+.color1 ul li:hover a {
+    color: #222c3c;
+}
+
+.color2 {
+    color: #222c3c;
+    box-shadow: 2px 2px 2px black;
+    width: 100%;
+}
+
+.color7 {
+    background-color: #222c3c;
+    padding: 10px;
+}
+
+.color7 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.color7 li a {
+    color: #989da6;
+    text-decoration: none;
+}
+
+.color7 li:hover {
+    background-color: #a19e9f;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.color7 li:hover a {
+    color: #222c3c;
+}
+
+fieldset {
+    width: 100%;
+    border: none;
+}
+
+form {
+    background-color: #f4f5f6;
+    width: 80%;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+}
+
+.form-container {
+    text-align: center;
+    margin-top: 3%;
+    padding: 40px;
+
+}
+
+label {
+    text-align: right;
+    width: 90%;
+    margin-bottom: 2%;
+    font-style: italic;
+}
+
+input {
+    display: inline-block;
+    width: 85%;
+}
+
+.button {
+    background-color: #989da6;
+    border: none;
+    color: #222c3c;
+}
+
+.button:hover {
+    background-color: #222c3c;
+    color: #a19e9f;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .fa-facebook-square,
+    .fa-instagram,
+    .fa-twitter,
+    .fa-linkedin,
+    .fa-youtube {
+        display: none;
+    }
+
+    h1 {
+        font-size: 185%;
+    }
+
+    h3,
+    h4 {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    h3 {
+        text-decoration: underline;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    label {
+        text-align: left;
+        width: 100%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+
+    input {
+        display: inline-block;
+        width: 95%;
+    }
+
+}

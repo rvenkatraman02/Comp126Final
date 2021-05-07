@@ -1,0 +1,105 @@
+.body {
+    height: 100vh;
+    background-color: #989da6;
+}
+
+.container-fluid {
+    background-color: #989da6;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.program-container {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.menu {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 140%;
+}
+
+.menu:hover {
+    color: white !important;
+}
+
+.logo {
+    width: 6%;
+    height: 6;
+    padding: 0.1%;
+}
+
+.fa-youtube,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin,
+.fa-facebook-square {
+    color: #f4f5f6;
+}
+
+.color1 {
+    background-color: #222c3c;
+}
+
+.color1 a {
+    color: #989da6;
+}
+
+.color1 ul li:hover {
+    background-color: #a19e9f;
+    border-radius: 5px;
+}
+
+.color1 ul li:hover a {
+    color: #222c3c;
+}
+
+.color2 {
+    color: #222c3c;
+    box-shadow: 2px 2px 2px black;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .fa-facebook-square,
+    .fa-instagram,
+    .fa-twitter,
+    .fa-linkedin,
+    .fa-youtube {
+        display: none;
+    }
+
+    h1 {
+        font-size: 185%;
+    }
+
+    h3,
+    h4 {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    h3 {
+        text-decoration: underline;
+    }
+
+}
